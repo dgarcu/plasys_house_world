@@ -6,7 +6,7 @@
     Package containing the home world for the plasys simulation, created with AWS RoboMaker WorldForge.
   </description>
 
-  <license>Apache 2.0</license>
+  <license>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</license>
 
   <maintainer email="ic.pasca.2021@alumnos.urjc.es">Ioana Carmen Pasca</maintainer>
   <maintainer email="a.cruzr.2021@alumnos.urjc.es">Alba Cruz Rodríguez</maintainer>
