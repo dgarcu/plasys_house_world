@@ -1,0 +1,115 @@
+<sdf version="1.6">
+	<model name="DoorHingedSingleSwingRight_O6596356fe884_lod0">
+		<link name="frame_link">
+			<pose>-0.05773424357175827 0.45874273777008057 -0.0 0 0 0</pose>
+			<visual name="visual_Door_right_frame_two_panel_wood_dark">
+				<geometry>
+					<mesh>
+						<uri>model://DoorHingedSingleSwingRight_O6596356fe884_lod0/meshes/visual_Door_right_frame_two_panel_wood_dark.dae</uri>
+					</mesh>
+				</geometry>
+				<pose>0 0 0 0 0 0</pose>
+			</visual>
+			<collision name="collision_Door_right_frame_two_panel_wood_dark_lod0_0">
+				<geometry>
+					<mesh>
+						<uri>model://DoorHingedSingleSwingRight_O6596356fe884_lod0/meshes/collision_Door_right_frame_two_panel_wood_dark_lod0_0.dae</uri>
+					</mesh>
+				</geometry>
+				<pose>0 0 0 0 0 0</pose>
+				<surface>
+					<contact>
+						<collide_bitmask>1</collide_bitmask>
+					</contact>
+				</surface>
+			</collision>
+		</link>
+		<link name="door_link">
+			<pose>0 0 0 0 0 0</pose>
+			<inertial>
+				<mass>1.0</mass>
+				<inertia>
+					<ixx>0.41441923703</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>0.073070729875</iyy>
+					<iyz>0.0</iyz>
+					<izz>0.34294104678</izz>
+				</inertia>
+			</inertial>
+			<visual name="visual_Door_right_door_two_panel_wood_dark">
+				<geometry>
+					<mesh>
+						<uri>model://DoorHingedSingleSwingRight_O6596356fe884_lod0/meshes/visual_Door_right_door_two_panel_wood_dark.dae</uri>
+					</mesh>
+				</geometry>
+				<pose>-0.05773424357175827 0.45874273777008057 -0.0 0 0 0</pose>
+			</visual>
+			<collision name="collision_Door_right_door_two_panel_wood_dark_lod0_0">
+				<geometry>
+					<mesh>
+						<uri>model://DoorHingedSingleSwingRight_O6596356fe884_lod0/meshes/collision_Door_right_door_two_panel_wood_dark_lod0_0.dae</uri>
+					</mesh>
+				</geometry>
+				<pose>-0.05773424357175827 0.45874273777008057 -0.0 0 0 0</pose>
+				<surface>
+					<contact>
+						<collide_bitmask>1</collide_bitmask>
+					</contact>
+				</surface>
+			</collision>
+		</link>
+		<joint name="world_joint" type="fixed">
+			<child>frame_link</child>
+			<parent>world</parent>
+			<axis>
+				<limit>
+					<lower>0</lower>
+					<upper>0</upper>
+				</limit>
+				<xyz>0 1 0</xyz>
+				<dynamics>
+					<damping>1</damping>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0</spring_stiffness>
+				</dynamics>
+			</axis>
+			<physics>
+				<ode>
+					<cfm_damping>1</cfm_damping>
+					<limit/>
+					<cfm>0</cfm>
+					<erp>0.2</erp>
+				</ode>
+			</physics>
+		</joint>
+		<joint name="hinge_joint" type="revolute">
+			<parent>frame_link</parent>
+			<child>door_link</child>
+			<pose>0 0 0 0 0 0</pose>
+			<axis>
+				<xyz>0 0 -1</xyz>
+				<limit>
+					<lower>0</lower>
+					<upper>1.5707963267948966</upper>
+				</limit>
+				<dynamics>
+					<damping>1</damping>
+					<friction>1</friction>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0</spring_stiffness>
+				</dynamics>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+			<physics>
+				<ode>
+					<cfm_damping>1</cfm_damping>
+					<limit>
+						<cfm>0</cfm>
+						<erp>0.2</erp>
+					</limit>
+				</ode>
+			</physics>
+		</joint>
+	</model>
+</sdf>

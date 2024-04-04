@@ -1,0 +1,22 @@
+{
+  "Name": "ClothesDryer_bb487c6818dc_lod0",
+  "Source": "18_ClothesDryer",
+  "Timestamp": 1677085200,
+  "BoundingBox": {
+    "MinPoint": {
+      "x": -0.3012148141860962,
+      "y": -0.230097696185112,
+      "z": 6.103519467615115e-08
+    },
+    "MaxPoint": {
+      "x": 0.3012148141860962,
+      "y": 0.24302758276462555,
+      "z": 0.8492662906646729
+    }
+  },
+  "Type": "washing-machines",
+  "Category": "washing-machines",
+  "Width": 0.6024296283721924,
+  "Length": 0.47312527894973755,
+  "Orientation": 4.71238898038469
+}

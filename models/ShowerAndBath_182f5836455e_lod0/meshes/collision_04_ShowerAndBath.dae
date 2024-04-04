@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <created>2020-05-28T16:26:15</created>
+    <modified>2020-05-28T16:26:15</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="_3_-_Default">
+      <profile_COMMON>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.5882353 0.5882353 0.5882353 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.5882353 0.5882353 0.5882353 1</color>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>9.999999</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <opacity_type sid="opacity_type" type="int">0</opacity_type>
+            <falloff_type sid="falloff_type" type="int">0</falloff_type>
+            <falloff sid="falloff" type="float">0</falloff>
+            <index_of_refraction sid="index_of_refraction" type="float">1.5</index_of_refraction>
+            <wire_size sid="wire_size" type="float">1</wire_size>
+            <wire_units sid="wire_units" type="int">0</wire_units>
+            <apply_reflection_dimming sid="apply_reflection_dimming" type="bool">0</apply_reflection_dimming>
+            <dim_level sid="dim_level" type="float">0</dim_level>
+            <reflection_level sid="reflection_level" type="float">3</reflection_level>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_texture_lock sid="ambient_diffuse_texture_lock" type="bool">1</ambient_diffuse_texture_lock>
+            <ambient_diffuse_lock sid="ambient_diffuse_lock" type="bool">1</ambient_diffuse_lock>
+            <diffuse_specular_lock sid="diffuse_specular_lock" type="bool">0</diffuse_specular_lock>
+            <use_self_illum_color sid="use_self_illum_color" type="bool">0</use_self_illum_color>
+            <self_illumination sid="self_illumination" type="float">0</self_illumination>
+            <specular_level sid="specular_level" type="float">0</specular_level>
+            <soften sid="soften" type="float">0.1</soften>
+          </shader>
+        </technique>
+      </extra>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="_3_-_Default-material" name="_3_-_Default">
+      <instance_effect url="#_3_-_Default"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="geom-UCX_SM_shower_bath" name="UCX_SM_shower_bath">
+      <mesh>
+        <source id="geom-UCX_SM_shower_bath-positions">
+          <float_array id="geom-UCX_SM_shower_bath-positions-array" count="72">-90.87587 -63.05304 203.6261 114.7506 -63.05304 203.6261 -90.87587 53.90805 203.6261 114.7506 53.90805 203.6261 -90.87587 -63.05304 219.8339 114.7506 -63.05304 219.8339 -90.87587 53.90805 219.8339 114.7506 53.90805 219.8339 -90.87587 -17.22979 61.78003 -90.87587 7.188519 61.78003 -56.83357 7.188519 61.78003 -56.83357 -17.22979 61.78003 -90.87587 -17.22979 203.6261 -56.83357 -17.22979 203.6261 -56.83357 7.188512 203.6261 -90.87587 7.188512 203.6261 -90.87589 -44.07751 0 -90.87588 35.42345 0 80.0532 35.42345 0 80.05319 -44.07751 0 -90.87589 -48.7995 61.78003 101.5945 -48.79951 61.78003 101.5945 35.42345 61.78003 -90.87588 35.42345 61.78003</float_array>
+          <technique_common>
+            <accessor source="#geom-UCX_SM_shower_bath-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-UCX_SM_shower_bath-normals">
+          <float_array id="geom-UCX_SM_shower_bath-normals-array" count="216">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.9999999 0 0 1 0 0 0.9999999 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -0.9999999 0 0 -1 0 0 -0.9999999 0 0 -1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 -5.37864e-8 0 -1 -5.37864e-8 0 -1 -5.37864e-8 0 -1 -5.37864e-8 0.9999999 0 0 1 0 0 0.9999999 0 0 1 0 0 0 1 5.37864e-8 0 1 5.37864e-8 0 1 5.37864e-8 0 1 5.37864e-8 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 -1 0 0 -0.9999999 0 0 -1 0 0 -0.9999999 0 0 1 0 0 1 0 0 1 0 0 1 -2.72755e-8 -0.9970918 -0.07620998 2.22525e-8 -0.9970918 -0.07621013 6.68879e-9 -0.9970918 -0.07621008 -3.9524e-8 -0.9970918 -0.07620994 0.9442473 -8.76648e-8 -0.3292371 0.9442474 -9.06157e-8 -0.3292371 0.9442473 -8.83886e-8 -0.3292371 0.9442473 -8.55353e-8 -0.3292371 -4.06039e-9 1 -1.1234e-8 -2.23174e-8 1 -6.17464e-8 -1.73898e-8 1 -4.8113e-8 0 1 0 -1 9.27535e-8 2.95524e-9 -1 9.59661e-8 7.3349e-9 -1 9.36877e-8 4.22881e-9 -1 9.05857e-8 -5.59335e-15</float_array>
+          <technique_common>
+            <accessor source="#geom-UCX_SM_shower_bath-normals-array" count="72" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-UCX_SM_shower_bath-map1">
+          <float_array id="geom-UCX_SM_shower_bath-map1-array" count="216">1 0 0 0 0 0 1 1 0 0 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 1 0 0 1 1 0 0 1 0 0 0 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 1 0 0 1 1 0 0 1 0 0 0 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#geom-UCX_SM_shower_bath-map1-array" count="72" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom-UCX_SM_shower_bath-vertices">
+          <input semantic="POSITION" source="#geom-UCX_SM_shower_bath-positions"/>
+        </vertices>
+        <triangles material="_3_-_Default_1" count="36">
+          <input semantic="VERTEX" source="#geom-UCX_SM_shower_bath-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#geom-UCX_SM_shower_bath-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#geom-UCX_SM_shower_bath-map1" offset="2" set="0"/>
+          <p>0 0 0 2 1 2 3 2 3 3 2 3 1 3 1 0 0 0 4 4 4 5 5 5 7 6 7 7 6 7 6 7 6 4 4 4 0 8 8 1 9 9 5 10 11 5 10 11 4 11 10 0 8 8 1 12 12 3 13 13 7 14 15 7 14 15 5 15 14 1 12 12 3 16 16 2 17 17 6 18 19 6 18 19 7 19 18 3 16 16 2 20 20 0 21 21 4 22 23 4 22 23 6 23 22 2 20 20 8 24 24 9 25 25 10 26 26 10 26 26 11 27 27 8 24 24 12 28 28 13 29 29 14 30 30 14 30 30 15 31 31 12 28 28 8 32 32 11 33 33 13 34 34 13 34 34 12 35 35 8 32 32 11 36 36 10 37 37 14 38 38 14 38 38 13 39 39 11 36 36 10 40 40 9 41 41 15 42 42 15 42 42 14 43 43 10 40 40 9 44 44 8 45 45 12 46 46 12 46 46 15 47 47 9 44 44 16 48 48 17 49 49 18 50 50 18 50 50 19 51 51 16 48 48 20 52 52 21 53 53 22 54 54 22 54 54 23 55 55 20 52 52 16 56 56 19 57 57 21 58 58 21 58 58 20 59 59 16 56 56 19 60 60 18 61 61 22 62 62 22 62 62 21 63 63 19 60 60 18 64 64 17 65 65 23 66 66 23 66 66 22 67 67 18 64 64 17 68 68 16 69 69 20 70 70 20 70 70 23 71 71 17 68 68</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_lights>
+    <light id="EnvironmentAmbientLight" name="EnvironmentAmbientLight">
+      <technique_common>
+        <ambient>
+          <color>0 0 0</color>
+        </ambient>
+      </technique_common>
+    </light>
+  </library_lights>
+  <library_visual_scenes>
+    <visual_scene id="MaxScene">
+      <node name="EnvironmentAmbientLight">
+        <instance_light url="#EnvironmentAmbientLight"/>
+      </node>
+      <node id="node-UCX_SM_shower_bath" name="UCX_SM_shower_bath">
+        <instance_geometry url="#geom-UCX_SM_shower_bath">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_3_-_Default_1" target="#_3_-_Default-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADA">
+            <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+            <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+            <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+            <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#MaxScene"/>
+  </scene>
+</COLLADA>

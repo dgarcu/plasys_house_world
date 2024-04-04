@@ -1,0 +1,126 @@
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.81.16 commit date:2019-12-04, commit time:11:32, hash:f1aa4d18d49d</authoring_tool>
+    </contributor>
+    <created>2020-04-08T17:53:58</created>
+    <modified>2020-04-08T17:53:58</modified>
+    <unit name="meter" meter="1.0" />
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="floor-material_up-effect" name="floor-material_up-effect">
+      <profile_COMMON>
+        <newparam sid="floor_up_png_001-surface">
+          <surface type="2D">
+            <init_from>floor_up_png_001</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="floor_up_png_001-sampler">
+          <sampler2D>
+            <source>floor_up_png_001-surface</source>
+            <minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+            <magfilter>LINEAR</magfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0.25 0.25 0.25 1.0</color>
+            </emission>
+            <diffuse>
+              <texture texture="floor_up_png_001-sampler" texcoord="floor_cube_001-mesh-map-0" />
+            </diffuse>
+            <transparency>
+              <float>1.0</float>
+            </transparency>
+            <index_of_refraction>
+              <float>1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>0</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="floor_up_png_001" name="floor_up_png_001">
+      <init_from>../materials/textures/floor.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="floor-material_up-material" name="floor-material-up.000">
+      <instance_effect url="#floor-material_up-effect" />
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="floor_cube_000-mesh" name="floor_cube.000">
+      <mesh>
+        <source id="floor_cube_000-mesh-positions">
+          <float_array id="floor_cube_000-mesh-positions-array" count="24">-1 1 1 1 1 1 -1 -1 1 1 -1 1 -1 1 -1 1 1 -1 -1 -1 -1 1 -1 -1</float_array>
+          <technique_common>
+            <accessor count="8" source="#floor_cube_000-mesh-positions-array" stride="3">
+              <param type="float" name="X" />
+              <param type="float" name="Y" />
+              <param type="float" name="Z" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="floor_cube_000-mesh-normals">
+          <float_array id="floor_cube_000-mesh-normals-array" count="18">1 0 0 0 0 -1 -1 0 0 0 1 0 0 -1 0 0 0 1</float_array>
+          <technique_common>
+            <accessor count="6" source="#floor_cube_000-mesh-normals-array" stride="3">
+              <param type="float" name="X" />
+              <param type="float" name="Y" />
+              <param type="float" name="Z" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="floor_cube_000-mesh-map-0">
+          <float_array id="floor_cube_000-mesh-map-0-array" count="72">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2.6 0 0 0.9 0 0 0 0.9 2.6 0 2.6 0.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2.6 0 2.6 0.9 0 0.9 0 0.9 0 0 2.6 0 0 0 0 0 0 0</float_array>
+          <technique_common>
+            <accessor count="36" source="#floor_cube_000-mesh-map-0-array" stride="2">
+              <param type="float" name="S" />
+              <param type="float" name="T" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="floor_cube_000-mesh-vertices">
+          <input semantic="POSITION" source="#floor_cube_000-mesh-positions" />
+        </vertices>
+        <triangles material="floor-material_up-material" count="2">
+          <input semantic="VERTEX" source="#floor_cube_000-mesh-vertices" offset="0" />
+          <input semantic="NORMAL" source="#floor_cube_000-mesh-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#floor_cube_000-mesh-map-0" offset="2" set="0" />
+          <p>0 5 9 3 5 10 1 5 11 0 5 27 2 5 28 3 5 29</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="floor" name="floor" type="NODE">
+        <instance_geometry url="#floor_cube_000-mesh" name="floor">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="floor-material_up-material" target="#floor-material_up-material">
+                <bind_vertex_input semantic="floor_cube_001-mesh-map-0" input_semantic="TEXCOORD" input_set="0" />
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <translate>-3.25 4.05 -0.01</translate>
+        <scale>2.5999999999999996 0.9000000000000001 0.01</scale>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

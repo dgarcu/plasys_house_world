@@ -1,0 +1,22 @@
+{
+  "Name": "DoorHingedSingleSwingLeft_O351f940da952_lod0",
+  "Source": "Liquid_Door_Hinge_Left_10",
+  "Timestamp": 1674496800,
+  "BoundingBox": {
+    "MinPoint": {
+      "x": -0.062384817749261856,
+      "y": -0.4760483503341675,
+      "z": -2.0808741396649566e-08
+    },
+    "MaxPoint": {
+      "x": 0.08002965897321701,
+      "y": 0.4760485887527466,
+      "z": 2.0480029582977295
+    }
+  },
+  "Type": "door-hinged-single-swing-left",
+  "Category": "door-hinged-single-swing-left",
+  "Width": 0.14241447672247887,
+  "Length": 0.9520969390869141,
+  "Orientation": 0
+}

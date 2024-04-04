@@ -1,0 +1,766 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+	<world name="plasys_house">
+		<!--Main bedroom-->
+		<model name="Headboards_O84d2b8173e76_lod0_0">
+			<include>
+				<uri>model://Headboards_O84d2b8173e76_lod0</uri>
+				<pose>-7.051275837421418 6.946909320354462 0.0 0.0 0.0 4.71</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="Nightstands_O86bb94a2231c_lod0_1">
+			<include>
+				<uri>model://Nightstands_O86bb94a2231c_lod0</uri>
+				<pose>-6.183524486422539 5.799987870454788 0.0 0.0 0.0 4.710000000000001</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="Nightstands_O86bb94a2231c_lod0_2">
+			<include>
+				<uri>model://Nightstands_O86bb94a2231c_lod0</uri>
+				<pose>-6.183524486422539 8.099987870454788 0.0 0.0 0.0 4.710000000000001</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="HomeOfficeDesks_O593758bd9853_lod0_3">
+			<include>
+				<uri>model://HomeOfficeDesks_O593758bd9853_lod0</uri>
+				<pose>-8.05 4.000014096498489 0.0 0.0 0.0 3.14</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="HomeOfficeDeskChairs_Oaed1cbd04270_lod0_4">
+			<include>
+				<uri>model://HomeOfficeDeskChairs_Oaed1cbd04270_lod0</uri>
+				<pose>-8.068350660800935 4.34404425919056 0.0 0.0 0.0 0.0</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="FloorLamps_Oc1b0ac823eb9_lod0_5">
+			<include>
+				<uri>model://FloorLamps_Oc1b0ac823eb9_lod0</uri>
+				<pose>-7.499942898750305 8.850000178813934 0.0 0.0 0.0 0.0</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="Bookcases_Of801682c0062_lod0_6">
+			<include>
+				<uri>model://Bookcases_Of801682c0062_lod0</uri>
+				<pose>-9.94999475479126 5.2498297691345215 0.0 0.0 0.0 1.57</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="Dressers_O3026d3820106_lod0_7">
+			<include>
+				<uri>model://Dressers_O3026d3820106_lod0</uri>
+				<pose>-9.500395596027374 8.800210866332055 0.0 0.0 0.0 0.0</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="aws_robomaker_residential_PortraitA_01_plasys">
+			<include>
+				<uri>model://aws_robomaker_residential_PortraitA_01_plasys</uri>
+				<pose>-5.95 6.9 1.5 0.0 0.0 1.57</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<light name='Main_Bedroom_Ceiling_Light' type='point'>
+			<pose frame=''>-8.0 6.3 3.000000 0 -0 0</pose>
+			<diffuse>0.25 0.25 0.25 1</diffuse>
+			<specular>0.1 0.1 0.1 1</specular>
+			<attenuation>
+				<range>20</range>
+				<constant>0.32</constant>
+				<linear>0.01</linear>
+				<quadratic>0.03</quadratic>
+			</attenuation>
+			<cast_shadows>0</cast_shadows>
+			<direction>0 0 -1</direction>
+		</light>
+		<!-- Living room-->
+		<model name='ChairA_01_001'>
+			<static>true</static>
+			<include>
+				<uri>model://aws_robomaker_residential_ChairA_01</uri>
+			</include>
+			<pose frame=''>-6.5 0.35 0.0 0.0 0.0 3.14</pose>
+		</model>
+		<model name='ChairA_01_002'>
+			<static>true</static>
+			<include>
+				<uri>model://aws_robomaker_residential_ChairA_01</uri>
+			</include>
+			<pose frame=''>-6.5 -0.35 0.0 0.0 0.0 3.14</pose>
+		</model>
+		<model name='ChairA_01_003'>
+			<static>true</static>
+			<include>
+				<uri>model://aws_robomaker_residential_ChairA_01</uri>
+			</include>
+			<pose frame=''>-5.5 0.35 0.0 0.0 0.0 0.0</pose>
+		</model>
+		<model name='ChairA_01_004'>
+			<static>true</static>
+			<include>
+				<uri>model://aws_robomaker_residential_ChairA_01</uri>
+			</include>
+			<pose frame=''>-5.5 -0.35 0.0 0.0 0.0 0.0</pose>
+		</model>
+		<model name='KitchenTable_01_001'>
+			<static>true</static>    
+			<include>
+				<uri>model://aws_robomaker_residential_KitchenTable_01</uri>
+			</include>
+			<pose frame=''>-6.0 0.0 0.0 0 -0 0.0</pose>
+		</model>
+		<model name="Sofas_Oa1bfa586a8f8_lod0_8">
+			<include>
+				<uri>model://Sofas_Oa1bfa586a8f8_lod0</uri>
+				<pose>-7.75 -4.308771568536758 0.0 0.0 0.0 3.14</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="Ottomans_Oe0e3f5670b60_lod0_9">
+			<include>
+				<uri>model://Ottomans_Oe0e3f5670b60_lod0</uri>
+				<pose>-7.75 -3.2500356435775757 0.0 0.0 0.0 0.0</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="Bookcases_Ocf3b7a3af58b_lod0_11">
+			<include>
+				<uri>model://Bookcases_Ocf3b7a3af58b_lod0</uri>
+				<pose>-3.3498592734336854 -1.6500000000000001 0.0 0.0 0.0 4.71</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="LivingRoomChairs_Obc1361750757_lod0_12">
+			<include>
+				<uri>model://LivingRoomChairs_Obc1361750757_lod0</uri>
+				<pose>-8.797515919804573 2.350000059604645 0.0 0.0 0.0 1.57</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="FloorLamps_O3abb34e1a719_lod0_13">
+			<include>
+				<uri>model://FloorLamps_O3abb34e1a719_lod0</uri>
+				<pose>-3.2999999627470973 -3.0197394967079165 0.0 0.0 0.0 4.71</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="SofaTables_Occc3fc60df11_lod0_14">
+			<include>
+				<uri>model://SofaTables_Occc3fc60df11_lod0</uri>
+				<pose>-9.050250428915025 -0.3000001192092896 0.0 0.0 0.0 1.57</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="HomeStorageBasketsBinsAndContainers_Oa5676f43a3ee_lod0_15">
+			<include>
+				<uri>model://HomeStorageBasketsBinsAndContainers_Oa5676f43a3ee_lod0</uri>
+				<pose>-7.100246167182923 2.9000000298023227 0.0 0.0 0.0 0.0</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="VanityBenches_Od731ef26e49f_lod0_16">
+			<include>
+				<uri>model://VanityBenches_Od731ef26e49f_lod0</uri>
+				<pose>-5.15000011920929 -4.549972283840179 0.0 0.0 0.0 3.14</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="Cabinets_O34efdbc7cd71_lod0_17">
+			<include>
+				<uri>model://Cabinets_O34efdbc7cd71_lod0</uri>
+				<pose>-3.9000000000000004 -4.558231431245804 0.0 0.0 0.0 3.14</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="AudioVideoMediaCabinets_O8c11fbab8c6f_lod0_18">
+			<include>
+				<uri>model://AudioVideoMediaCabinets_O8c11fbab8c6f_lod0</uri>
+				<pose>-9.105899585783481 -1.4998804032802582 0.0 0.0 0.0 1.57</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="aws_robomaker_residential_TV_01_plasys">
+			<include>
+				<uri>model://aws_robomaker_residential_TV_01_plasys</uri>
+				<pose>-7.25 3.05 1.5 0.0 0.0 1.57</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<light name='Living_Room_Ceiling_Light_1' type='point'>
+			<pose frame=''>-6.25 2.25 3.000000 0 -0 0</pose>
+			<diffuse>0.25 0.25 0.25 1</diffuse>
+			<specular>0.1 0.1 0.1 1</specular>
+			<attenuation>
+				<range>20</range>
+				<constant>0.32</constant>
+				<linear>0.01</linear>
+				<quadratic>0.03</quadratic>
+			</attenuation>
+			<cast_shadows>0</cast_shadows>
+			<direction>0 0 -1</direction>
+		</light>
+		<light name='Living_Room_Ceiling_Light_2' type='point'>
+			<pose frame=''>-6.25 -2.5 3.000000 0 -0 0</pose>
+			<diffuse>0.25 0.25 0.25 1</diffuse>
+			<specular>0.1 0.1 0.1 1</specular>
+			<attenuation>
+				<range>20</range>
+				<constant>0.32</constant>
+				<linear>0.01</linear>
+				<quadratic>0.03</quadratic>
+			</attenuation>
+			<cast_shadows>0</cast_shadows>
+			<direction>0 0 -1</direction>
+		</light>
+		<!--Bathroom-->
+		<model name="PedestalSink_303fe81afd0_lod0_19">
+			<include>
+				<uri>model://PedestalSink_303fe81afd0_lod0</uri>
+				<pose>-10.199197497963906 -0.8676211521029473 0.0 0.0 0.0 3.14</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="Toilet_37fa78cd7dc4_lod0_20">
+			<include>
+				<uri>model://Toilet_37fa78cd7dc4_lod0</uri>
+				<pose>-11.699197497963906 -0.8676211521029473 0.0 0.0 0.0 1.57</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="ClothesDryer_bb487c6818dc_lod0_21">
+			<include>
+				<uri>model://ClothesDryer_bb487c6818dc_lod0</uri>
+				<pose>-12.25 3.3435350567102433 0.0 0.0 0.0 0.0</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="ShowerAndBath_182f5836455e_lod0_22">
+			<include>
+				<uri>model://ShowerAndBath_182f5836455e_lod0</uri>
+				<pose>-10.053603357076645 2.6685024082660678 0.0 0.0 0.0 4.71</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<light name='Bathroom_Ceiling_Light' type='point'>
+			<pose frame=''>-11.0 1.05 3.000000 0 -0 0</pose>
+			<diffuse>0.25 0.25 0.25 1</diffuse>
+			<specular>0.1 0.1 0.1 1</specular>
+			<attenuation>
+				<range>20</range>
+				<constant>0.32</constant>
+				<linear>0.01</linear>
+				<quadratic>0.03</quadratic>
+			</attenuation>
+			<cast_shadows>0</cast_shadows>
+			<direction>0 0 -1</direction>
+		</light>
+		<!--Kitchen-->
+		<model name="DishWasher_f2d1aeaead9b_lod0_23">
+			<include>
+				<uri>model://DishWasher_f2d1aeaead9b_lod0</uri>
+				<pose>-1.8000070333480835 -1.8073143109679223 0.0 0.0 0.0 3.14</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="Oven_a94deec47786_lod0_27">
+			<include>
+				<uri>model://Oven_a94deec47786_lod0</uri>
+				<pose>0.8000070333480835 -1.6073143109679223 0.0 0.0 0.0 1.57</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="ServingCarts_Od1716e02c5bd_lod0_28">
+			<include>
+				<uri>model://ServingCarts_Od1716e02c5bd_lod0</uri>
+				<pose>-0.4492406666278839 -1.8000226050615311 0.0 0.0 0.0 3.14</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name='CookingBench_01'>
+			<include>
+				<uri>model://aws_robomaker_residential_CookingBench_01</uri>
+			</include>
+			<pose frame=''>0.5 1.735 0.903610 0.0 0.0 4.71</pose>
+			<static> true </static>
+		</model> 
+		<model name='Rangehood_01_001'>
+			<static>true</static>    
+			<include>
+				<uri>model://aws_robomaker_residential_Rangehood_01</uri>
+			</include>
+			<pose frame=''>0.5 1.8 2.0 0.0 0.0 1.57</pose>
+		</model>
+		<model name='KitchenCabinet_01_001'>
+			<static>true</static>    
+			<include>
+				<uri>model://aws_robomaker_residential_KitchenCabinet_01</uri>
+			</include>
+			<pose frame=''>1.3 0.75 0.0 0.0 0.0 4.71</pose>
+		</model>
+		<model name='Refrigerator_01_001'>
+			<static>true</static>    
+			<include>
+				<uri>model://aws_robomaker_residential_Refrigerator_01</uri>
+			</include>
+			<pose frame=''>-1.3 1.625 0.0 0.0 0.0 0</pose>
+		</model>
+		<light name='Kitchen_Ceiling_Light_1' type='point'>
+			<pose frame=''>0.0 0.0 3.000000 0 -0 0</pose>
+			<diffuse>0.25 0.25 0.25 1</diffuse>
+			<specular>0.1 0.1 0.1 1</specular>
+			<attenuation>
+				<range>20</range>
+				<constant>0.32</constant>
+				<linear>0.01</linear>
+				<quadratic>0.03</quadratic>
+			</attenuation>
+			<cast_shadows>0</cast_shadows>
+			<direction>0 0 -1</direction>
+		</light>
+		<!--Bedroom-->
+		<model name="Headboards_Occ57434fb9f0_lod0_30">
+			<include>
+				<uri>model://Headboards_Occ57434fb9f0_lod0</uri>
+				<pose>1.7022281408309938 3.100017046928406 0.0 0.0 0.0 4.71</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="Nightstands_O14c5f5d1199b_lod0_31">
+			<include>
+				<uri>model://Nightstands_O14c5f5d1199b_lod0</uri>
+				<pose>2.560601028800011 4.2501323819160465 0.0 0.0 0.0 4.710000000000001</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="HomeOfficeDesks_Oab58b4fda1f7_lod0_33">
+			<include>
+				<uri>model://HomeOfficeDesks_Oab58b4fda1f7_lod0</uri>
+				<pose>0.30000000000000004 7.200071614980698 0.0 0.0 0.0 0.0</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="HomeOfficeDeskChairs_Oaed1cbd04270_lod0_34">
+			<include>
+				<uri>model://HomeOfficeDeskChairs_Oaed1cbd04270_lod0</uri>
+				<pose>0.3183506608009339 6.855955740809441 0.0 0.0 0.0 3.1399999999999997</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="Bookcases_Oe43e7e39f537_lod0_35">
+			<include>
+				<uri>model://Bookcases_Oe43e7e39f537_lod0</uri>
+				<pose>2.0 7.3000001341104515 0.0 0.0 0.0 0.0</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="FloorLamps_Oa651b7cbe4d7_lod0_36">
+			<include>
+				<uri>model://FloorLamps_Oa651b7cbe4d7_lod0</uri>
+				<pose>2.65 5.239001312851906 0.0 0.0 0.0 0.0</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="aws_robomaker_residential_PortraitA_02_plasys">
+			<include>
+				<uri>model://aws_robomaker_residential_PortraitA_02_plasys</uri>
+				<pose>2.875 6.15 1.5 0.0 0.0 1.57</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<light name='Bedroom_Ceiling_Light_1' type='point'>
+			<pose frame=''>1.0 5.0 3.000000 0 -0 0</pose>
+			<diffuse>0.25 0.25 0.15 1</diffuse>
+			<specular>0.1 0.1 0.1 1</specular>
+			<attenuation>
+				<range>20</range>
+				<constant>0.32</constant>
+				<linear>0.01</linear>
+				<quadratic>0.03</quadratic>
+			</attenuation>
+			<cast_shadows>0</cast_shadows>
+			<direction>0 0 -1</direction>
+		</light>
+		<!--Hallway-->
+		<model name="Bookcases_Oea630f7d6252_lod0_37">
+			<include>
+				<uri>model://Bookcases_Oea630f7d6252_lod0</uri>
+				<pose>-2.148098075389862 4.657662504911423 0.0 0.0 0.0 0.0</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="Bookcases_Oea630f7d6252_lod0_38">
+			<include>
+				<uri>model://Bookcases_Oea630f7d6252_lod0</uri>
+				<pose>-3.6980980753898622 4.657662504911423 0.0 0.0 0.0 0.0</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="FloorLamps_Occ4b77538a7e_lod0_39">
+			<include>
+				<uri>model://FloorLamps_Occ4b77538a7e_lod0</uri>
+				<pose>-4.2499778270721436 4.631874124705791 0.0 0.0 0.0 0.0</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="FloorLamps_O75326ec60544_lod0_40">
+			<include>
+				<uri>model://FloorLamps_O75326ec60544_lod0</uri>
+				<pose>-2.7759092628955844 4.658160516619683 0.0 0.0 0.0 0.0</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<light name='Hallway_Ceiling_Light_1' type='point'>
+			<pose frame=''>-3.0 4.0 3.000000 0 -0 0</pose>
+			<diffuse>0.15 0.15 0.15 1</diffuse>
+			<specular>0.1 0.1 0.1 1</specular>
+			<attenuation>
+				<range>20</range>
+				<constant>0.32</constant>
+				<linear>0.01</linear>
+				<quadratic>0.03</quadratic>
+			</attenuation>
+			<cast_shadows>0</cast_shadows>
+			<direction>0 0 -1</direction>
+		</light>
+		<!--Structure models-->
+		<model name="wall_0">
+			<include>
+				<uri>model://wall_0</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_1">
+			<include>
+				<uri>model://wall_1</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_2">
+			<include>
+				<uri>model://wall_2</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_3">
+			<include>
+				<uri>model://wall_3</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_4">
+			<include>
+				<uri>model://wall_4</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_5">
+			<include>
+				<uri>model://wall_5</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_6">
+			<include>
+				<uri>model://wall_6</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_7">
+			<include>
+				<uri>model://wall_7</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_8">
+			<include>
+				<uri>model://wall_8</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_9">
+			<include>
+				<uri>model://wall_9</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_10">
+			<include>
+				<uri>model://wall_10</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_11">
+			<include>
+				<uri>model://wall_11</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_12">
+			<include>
+				<uri>model://wall_12</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_13">
+			<include>
+				<uri>model://wall_13</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_14">
+			<include>
+				<uri>model://wall_14</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_15">
+			<include>
+				<uri>model://wall_15</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_16">
+			<include>
+				<uri>model://wall_16</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_17">
+			<include>
+				<uri>model://wall_17</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_18">
+			<include>
+				<uri>model://wall_18</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_19">
+			<include>
+				<uri>model://wall_19</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_20">
+			<include>
+				<uri>model://wall_20</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_21">
+			<include>
+				<uri>model://wall_21</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_22">
+			<include>
+				<uri>model://wall_22</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_23">
+			<include>
+				<uri>model://wall_23</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_24">
+			<include>
+				<uri>model://wall_24</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_25">
+			<include>
+				<uri>model://wall_25</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_26">
+			<include>
+				<uri>model://wall_26</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_27">
+			<include>
+				<uri>model://wall_27</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_28">
+			<include>
+				<uri>model://wall_28</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_29">
+			<include>
+				<uri>model://wall_29</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_30">
+			<include>
+				<uri>model://wall_30</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_31">
+			<include>
+				<uri>model://wall_31</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_32">
+			<include>
+				<uri>model://wall_32</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="wall_33">
+			<include>
+				<uri>model://wall_33</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="doorway_wall_34">
+			<include>
+				<uri>model://doorway_wall_34</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="doorway_wall_35">
+			<include>
+				<uri>model://doorway_wall_35</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="doorway_wall_36">
+			<include>
+				<uri>model://doorway_wall_36</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="doorway_wall_37">
+			<include>
+				<uri>model://doorway_wall_37</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="floor_Main_bedroom">
+			<include>
+				<uri>model://floor_Main bedroom</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="floor_Living_room">
+			<include>
+				<uri>model://floor_Living room</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="floor_Bathroom">
+			<include>
+				<uri>model://floor_Bathroom</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="floor_Kitchen">
+			<include>
+				<uri>model://floor_Kitchen</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="floor_Bedroom">
+			<include>
+				<uri>model://floor_Bedroom</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="floor_Hallway">
+			<include>
+				<uri>model://floor_Hallway</uri>
+				<static>true</static>
+			</include>
+		</model>
+		<!--Door models-->
+		<model name="door-Main_bedroom-Hallway">
+			<include>
+				<uri>model://DoorHingedSingleSwingRight_O888a160c5277_lod0</uri>
+				<pose>-5.779999999999999 3.8175 0.0 0.0 0.0 6.281592653589794</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="door-Kitchen-Living_room">
+			<include>
+				<uri>model://DoorHingedSingleSwingLeft_O8ab66c006110_lod0</uri>
+				<pose>-3.1199999999999997 -0.4325 0.0 0.0 0.0 3.1400000000000006</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="door-Bathroom-Living_room">
+			<include>
+				<uri>model://DoorHingedSingleSwingLeft_O351f940da952_lod0</uri>
+				<pose>-9.28 1.4825 0.0 0.0 0.0 0.0</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<model name="door-Hallway-Bedroom">
+			<include>
+				<uri>model://DoorHingedSingleSwingRight_O6596356fe884_lod0</uri>
+				<pose>-0.5800000000000001 3.6175 0.0 0.0 0.0 6.281592653589794</pose>
+				<static>true</static>
+			</include>
+		</model>
+		<state world_name="plasys_house">
+			<model name="door-Main_bedroom-Hallway">
+				<link name="DoorHingedSingleSwingRight_O888a160c5277_lod0::door_link">
+					<pose>-5.779999999999999 3.8175 0.0 0 0 3.24</pose>
+				</link>
+			</model>
+			<model name="door-Kitchen-Living_room">
+				<link name="DoorHingedSingleSwingLeft_O8ab66c006110_lod0::door_link">
+					<pose>-3.1199999999999997 -0.4325 0.0 0 0 -0.8</pose>
+				</link>
+			</model>
+			<model name="door-Bathroom-Living_room">
+				<link name="DoorHingedSingleSwingLeft_O351f940da952_lod0::door_link">
+					<pose>-9.28 1.4825 0.0 0 0 1.5707963267948966</pose>
+				</link>
+			</model>
+			<model name="door-Hallway-Bedroom">
+				<link name="DoorHingedSingleSwingRight_O6596356fe884_lod0::door_link">
+					<pose>-0.5800000000000001 3.6175 0.0 0 0 3.3</pose>
+				</link>
+			</model>
+		</state>
+		<!-- <light name='sun' type='directional'>
+			<cast_shadows>1</cast_shadows>
+			<pose frame=''>-5 1 50 0 -0 0</pose>
+			<diffuse>0.8 0.8 0.8 1</diffuse>
+			<specular>0.1 0.1 0.1 1</specular>
+			<attenuation>
+				<range>1000</range>
+				<constant>0.00</constant>
+				<linear>0.00</linear>
+				<quadratic>0.00</quadratic>
+			</attenuation>
+			<direction>1.0 1.0 -1000.0	</direction>
+		</light> -->
+		<gui fullscreen='0'>
+			<camera name='user_camera'>
+				<pose>-19.637680 -8.615614 19.886538 0.0 0.828001 0.584001</pose>
+				<view_controller>orbit</view_controller>
+			</camera>
+		</gui>
+	</world>
+</sdf>

@@ -1,0 +1,20 @@
+<sdf version="1.6">
+	<model name="FloorLamps_O75326ec60544_lod0">
+		<link name="main_link">
+			<visual name="visual_RootNode">
+				<geometry>
+					<mesh>
+						<uri>model://FloorLamps_O75326ec60544_lod0/meshes/visual_RootNode.dae</uri>
+					</mesh>
+				</geometry>
+			</visual>
+			<collision name="collision_RootNode_lod0_0">
+				<geometry>
+					<mesh>
+						<uri>model://FloorLamps_O75326ec60544_lod0/meshes/collision_RootNode_lod0_0.dae</uri>
+					</mesh>
+				</geometry>
+			</collision>
+		</link>
+	</model>
+</sdf>

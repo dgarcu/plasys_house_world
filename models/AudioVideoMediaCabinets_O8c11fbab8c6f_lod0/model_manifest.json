@@ -1,0 +1,22 @@
+{
+  "Name": "AudioVideoMediaCabinets_O8c11fbab8c6f_lod0",
+  "Source": "B07QD6V13M",
+  "Timestamp": 1674496800,
+  "BoundingBox": {
+    "MinPoint": {
+      "x": -0.4000902771949768,
+      "y": -0.20520466566085815,
+      "z": 0.00016749925271142274
+    },
+    "MaxPoint": {
+      "x": 0.39985108375549316,
+      "y": 0.19340549409389496,
+      "z": 0.760931134223938
+    }
+  },
+  "Type": "audio-video-media-cabinets",
+  "Category": "audio-video-media-cabinets",
+  "Width": 0.79994136095047,
+  "Length": 0.3986101597547531,
+  "Orientation": 4.71238898038469
+}

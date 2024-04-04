@@ -1,0 +1,22 @@
+{
+  "Name": "Sideboards_Ofc0467edd91_lod0",
+  "Source": "B07HSBJ7FW",
+  "Timestamp": 1674496800,
+  "BoundingBox": {
+    "MinPoint": {
+      "x": -0.37168365716934204,
+      "y": -0.1788741499185562,
+      "z": -2.076809124673673e-08
+    },
+    "MaxPoint": {
+      "x": 0.3717840313911438,
+      "y": 0.17552712559700012,
+      "z": 0.6538659334182739
+    }
+  },
+  "Type": "sideboards",
+  "Category": "sideboards",
+  "Width": 0.7434676885604858,
+  "Length": 0.35440127551555634,
+  "Orientation": 4.71238898038469
+}

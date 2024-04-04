@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+
+    <created>2020-05-25T11:54:02</created>
+    <modified>2020-05-25T11:54:02</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="_4_-_Default">
+      <profile_COMMON>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.5882353 0.5882353 0.5882353 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.5882353 0.5882353 0.5882353 1</color>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>9.999999</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <opacity_type sid="opacity_type" type="int">0</opacity_type>
+            <falloff_type sid="falloff_type" type="int">0</falloff_type>
+            <falloff sid="falloff" type="float">0</falloff>
+            <index_of_refraction sid="index_of_refraction" type="float">1.5</index_of_refraction>
+            <wire_size sid="wire_size" type="float">1</wire_size>
+            <wire_units sid="wire_units" type="int">0</wire_units>
+            <apply_reflection_dimming sid="apply_reflection_dimming" type="bool">0</apply_reflection_dimming>
+            <dim_level sid="dim_level" type="float">0</dim_level>
+            <reflection_level sid="reflection_level" type="float">3</reflection_level>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_texture_lock sid="ambient_diffuse_texture_lock" type="bool">1</ambient_diffuse_texture_lock>
+            <ambient_diffuse_lock sid="ambient_diffuse_lock" type="bool">1</ambient_diffuse_lock>
+            <diffuse_specular_lock sid="diffuse_specular_lock" type="bool">0</diffuse_specular_lock>
+            <use_self_illum_color sid="use_self_illum_color" type="bool">0</use_self_illum_color>
+            <self_illumination sid="self_illumination" type="float">0</self_illumination>
+            <specular_level sid="specular_level" type="float">0</specular_level>
+            <soften sid="soften" type="float">0.1</soften>
+          </shader>
+        </technique>
+      </extra>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="_4_-_Default-material" name="_4_-_Default">
+      <instance_effect url="#_4_-_Default"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="geom-UCX_dishwasher" name="UCX_dishwasher">
+      <mesh>
+        <source id="geom-UCX_dishwasher-positions">
+          <float_array id="geom-UCX_dishwasher-positions-array" count="48">-29.77959 24.28604 0.05422974 29.7796 24.28604 0.05422974 -29.77959 24.28602 68.16841 29.7796 24.28602 68.16841 -29.7796 -27.26295 0.05419159 29.77961 -27.26295 0.05419922 -29.7796 -27.26299 68.16837 29.77961 -27.26299 68.16837 -24.26326 -31.70563 54.44989 24.26326 -31.70563 54.44989 -24.26326 -31.70563 56.50676 24.26326 -31.70563 56.50676 -24.26326 -27.26299 54.44989 24.26326 -27.26299 54.44989 -24.26326 -27.26299 56.50676 24.26326 -27.26299 56.50676</float_array>
+          <technique_common>
+            <accessor source="#geom-UCX_dishwasher-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-UCX_dishwasher-normals">
+          <float_array id="geom-UCX_dishwasher-normals-array" count="180">0 1 2.5202e-7 0 1 2.5202e-7 0 0.9999999 2.5202e-7 0 1 2.5202e-7 0 1 2.5202e-7 0 0.9999999 2.5202e-7 5.73923e-14 -1 -4.48036e-7 5.73923e-14 -0.9999999 -4.48036e-7 5.73923e-14 -1 -4.48036e-7 0 -1 -4.48036e-7 0 -1 -4.48036e-7 0 -1 -4.48036e-7 0 5.92083e-7 -0.9999999 0 5.92083e-7 -0.9999999 0 5.92083e-7 -1 1.28098e-7 7.40086e-7 -0.9999999 1.28098e-7 7.40086e-7 -1 1.28098e-7 7.40086e-7 -1 1 1.85003e-7 4.66246e-14 0.9999999 1.85003e-7 4.66246e-14 1 1.85003e-7 4.66246e-14 1 1.85003e-7 8.28882e-14 1 1.85003e-7 8.28882e-14 1 1.85003e-7 8.28882e-14 0 -7.40014e-7 0.9999999 0 -7.40014e-7 0.9999999 0 -7.40014e-7 1 0 -7.40014e-7 0.9999999 0 -7.40014e-7 1 0 -7.40014e-7 1 -1 2.22004e-7 5.59495e-14 -1 2.22004e-7 5.59495e-14 -0.9999999 2.22004e-7 5.59495e-14 -1 2.22004e-7 9.94657e-14 -1 2.22004e-7 9.94658e-14 -0.9999999 2.22004e-7 9.94657e-14 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 8.58655e-7 -1 0 8.58655e-7 -1 0 8.58655e-7 -1 0 8.58655e-7 -1 1 0 0 0.9999999 0 0 1 0 0 0.9999999 0 0 0 -8.58655e-7 1 0 -8.58655e-7 1 0 -8.58655e-7 1 0 -8.58655e-7 1 -0.9999999 0 0 -1 0 0 -0.9999999 0 0 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#geom-UCX_dishwasher-normals-array" count="60" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-UCX_dishwasher-map1">
+          <float_array id="geom-UCX_dishwasher-map1-array" count="144">1 0 0 0 0 0 1 1 0 0 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 1 0 0 0 0 0 1 1 0 0 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0</float_array>
+          <technique_common>
+            <accessor source="#geom-UCX_dishwasher-map1-array" count="48" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom-UCX_dishwasher-vertices">
+          <input semantic="POSITION" source="#geom-UCX_dishwasher-positions"/>
+        </vertices>
+        <triangles material="_4_-_Default_1" count="24">
+          <input semantic="VERTEX" source="#geom-UCX_dishwasher-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#geom-UCX_dishwasher-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#geom-UCX_dishwasher-map1" offset="2" set="0"/>
+          <p>0 0 0 2 1 2 3 2 3 3 3 3 1 4 1 0 5 0 4 6 4 5 7 5 7 8 7 7 9 7 6 10 6 4 11 4 0 12 8 1 13 9 5 14 11 5 15 11 4 16 10 0 17 8 1 18 12 3 19 13 7 20 15 7 21 15 5 22 14 1 23 12 3 24 16 2 25 17 6 26 19 6 27 19 7 28 18 3 29 16 2 30 20 0 31 21 4 32 23 4 33 23 6 34 22 2 35 20 8 36 24 9 37 25 11 38 27 11 38 27 10 39 26 8 36 24 12 40 28 14 41 30 15 42 31 15 42 31 13 43 29 12 40 28 8 44 32 12 45 34 13 46 35 13 46 35 9 47 33 8 44 32 9 48 36 13 49 38 15 50 39 15 50 39 11 51 37 9 48 36 11 52 40 15 53 42 14 54 43 14 54 43 10 55 41 11 52 40 10 56 44 14 57 46 12 58 47 12 58 47 8 59 45 10 56 44</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_lights>
+    <light id="EnvironmentAmbientLight" name="EnvironmentAmbientLight">
+      <technique_common>
+        <ambient>
+          <color>0 0 0</color>
+        </ambient>
+      </technique_common>
+    </light>
+  </library_lights>
+  <library_visual_scenes>
+    <visual_scene id="MaxScene">
+      <node name="EnvironmentAmbientLight">
+        <instance_light url="#EnvironmentAmbientLight"/>
+      </node>
+      <node id="node-UCX_dishwasher" name="UCX_dishwasher">
+        <instance_geometry url="#geom-UCX_dishwasher">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_4_-_Default_1" target="#_4_-_Default-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADA">
+            <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+            <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+            <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+            <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#MaxScene"/>
+  </scene>
+</COLLADA>

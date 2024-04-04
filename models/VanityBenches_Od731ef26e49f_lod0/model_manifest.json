@@ -1,0 +1,22 @@
+{
+  "Name": "VanityBenches_Od731ef26e49f_lod0",
+  "Source": "B07QJ1X2J4",
+  "Timestamp": 1674496800,
+  "BoundingBox": {
+    "MinPoint": {
+      "x": -0.5587946176528931,
+      "y": -0.20316794514656067,
+      "z": -1.4921161891834345e-05
+    },
+    "MaxPoint": {
+      "x": 0.558794379234314,
+      "y": 0.20322337746620178,
+      "z": 0.43170908093452454
+    }
+  },
+  "Type": "vanity-benches",
+  "Category": "vanity-benches",
+  "Width": 1.117588996887207,
+  "Length": 0.40639132261276245,
+  "Orientation": 4.71238898038469
+}

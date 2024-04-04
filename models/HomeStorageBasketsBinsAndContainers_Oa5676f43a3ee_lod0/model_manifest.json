@@ -1,0 +1,22 @@
+{
+  "Name": "HomeStorageBasketsBinsAndContainers_Oa5676f43a3ee_lod0",
+  "Source": "B07B8MSPDC",
+  "Timestamp": 1674496800,
+  "BoundingBox": {
+    "MinPoint": {
+      "x": -0.5316258668899536,
+      "y": -0.19678358733654022,
+      "z": -8.436180360149592e-05
+    },
+    "MaxPoint": {
+      "x": 0.5321182012557983,
+      "y": 0.19678352773189545,
+      "z": 0.31116265058517456
+    }
+  },
+  "Type": "home-storage-baskets-bins-and-containers",
+  "Category": "home-storage-baskets-bins-and-containers",
+  "Width": 1.063744068145752,
+  "Length": 0.39356711506843567,
+  "Orientation": 4.71238898038469
+}

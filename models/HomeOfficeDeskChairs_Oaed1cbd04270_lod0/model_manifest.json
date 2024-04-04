@@ -1,0 +1,22 @@
+{
+  "Name": "HomeOfficeDeskChairs_Oaed1cbd04270_lod0",
+  "Source": "B07QC84LP1",
+  "Timestamp": 1674496800,
+  "BoundingBox": {
+    "MinPoint": {
+      "x": -0.295587956905365,
+      "y": -0.30180636048316956,
+      "z": -0.0008117039105854928
+    },
+    "MaxPoint": {
+      "x": 0.33228927850723267,
+      "y": 0.3137178421020508,
+      "z": 0.9100049734115601
+    }
+  },
+  "Type": "home-office-desk-chairs",
+  "Category": "home-office-desk-chairs",
+  "Width": 0.6278772354125977,
+  "Length": 0.6155242025852203,
+  "Orientation": 4.71238898038469
+}

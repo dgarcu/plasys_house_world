@@ -1,0 +1,22 @@
+{
+  "Name": "DishWasher_f2d1aeaead9b_lod0",
+  "Source": "10_DishWasher",
+  "Timestamp": 1677085200,
+  "BoundingBox": {
+    "MinPoint": {
+      "x": -0.29779598116874695,
+      "y": -0.3170562982559204,
+      "z": 0.0017327889800071716
+    },
+    "MaxPoint": {
+      "x": 0.29779598116874695,
+      "y": 0.24286028742790222,
+      "z": 0.6816840171813965
+    }
+  },
+  "Type": "dishwashers",
+  "Category": "dishwashers",
+  "Width": 0.5955919623374939,
+  "Length": 0.5599165856838226,
+  "Orientation": 4.71238898038469
+}

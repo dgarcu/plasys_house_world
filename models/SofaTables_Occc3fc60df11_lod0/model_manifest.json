@@ -1,0 +1,22 @@
+{
+  "Name": "SofaTables_Occc3fc60df11_lod0",
+  "Source": "B07HSBHY2P",
+  "Timestamp": 1674496800,
+  "BoundingBox": {
+    "MinPoint": {
+      "x": -0.6651908159255981,
+      "y": -0.261155366897583,
+      "z": -2.8693349918285094e-08
+    },
+    "MaxPoint": {
+      "x": 0.6651910543441772,
+      "y": 0.2606545090675354,
+      "z": 0.8734202980995178
+    }
+  },
+  "Type": "sofa-tables",
+  "Category": "sofa-tables",
+  "Width": 1.3303818702697754,
+  "Length": 0.5218098759651184,
+  "Orientation": 4.71238898038469
+}

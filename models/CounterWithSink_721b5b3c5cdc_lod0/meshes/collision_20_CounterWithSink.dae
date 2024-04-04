@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <created>2020-05-28T11:11:26</created>
+    <modified>2020-05-28T11:11:26</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="_3_-_Default">
+      <profile_COMMON>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.5882353 0.5882353 0.5882353 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.5882353 0.5882353 0.5882353 1</color>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>9.999999</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <opacity_type sid="opacity_type" type="int">0</opacity_type>
+            <falloff_type sid="falloff_type" type="int">0</falloff_type>
+            <falloff sid="falloff" type="float">0</falloff>
+            <index_of_refraction sid="index_of_refraction" type="float">1.5</index_of_refraction>
+            <wire_size sid="wire_size" type="float">1</wire_size>
+            <wire_units sid="wire_units" type="int">0</wire_units>
+            <apply_reflection_dimming sid="apply_reflection_dimming" type="bool">0</apply_reflection_dimming>
+            <dim_level sid="dim_level" type="float">0</dim_level>
+            <reflection_level sid="reflection_level" type="float">3</reflection_level>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_texture_lock sid="ambient_diffuse_texture_lock" type="bool">1</ambient_diffuse_texture_lock>
+            <ambient_diffuse_lock sid="ambient_diffuse_lock" type="bool">1</ambient_diffuse_lock>
+            <diffuse_specular_lock sid="diffuse_specular_lock" type="bool">0</diffuse_specular_lock>
+            <use_self_illum_color sid="use_self_illum_color" type="bool">0</use_self_illum_color>
+            <self_illumination sid="self_illumination" type="float">0</self_illumination>
+            <specular_level sid="specular_level" type="float">0</specular_level>
+            <soften sid="soften" type="float">0.1</soften>
+          </shader>
+        </technique>
+      </extra>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="_3_-_Default-material" name="_3_-_Default">
+      <instance_effect url="#_3_-_Default"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="geom-UCX_SM_counter_sink" name="UCX_SM_counter_sink">
+      <mesh>
+        <source id="geom-UCX_SM_counter_sink-positions">
+          <float_array id="geom-UCX_SM_counter_sink-positions-array" count="168">-57.58229 -30.75854 90.00072 46.21084 -30.75854 90.00072 -57.58229 31.19519 90.00072 46.21084 31.19519 90.00072 -57.58229 -30.75853 95.13074 46.21084 -30.75853 95.13074 -57.58229 31.19519 95.13074 46.21084 31.19519 95.13074 -24.23985 12.96278 95.13074 -24.23985 25.41053 95.13074 -20.45752 25.41053 95.13074 -20.45752 12.96278 95.13074 -24.23985 12.96279 109.276 -20.45752 12.96279 109.276 -20.45752 25.41053 109.276 -24.23985 25.41053 109.276 -57.58229 -28.25356 1.52588e-5 -57.58229 29.49998 1.52588e-5 46.21084 29.49998 1.52588e-5 46.21084 -28.25356 1.52588e-5 -57.58229 -28.25356 90 46.21084 -28.25356 90 46.21084 29.49998 90 -57.58229 29.49998 90 -10.45951 -29.86004 56.61163 -10.45951 -28.25356 56.61163 -8.718807 -28.21404 56.61163 -8.718807 -29.86004 56.61163 -10.45951 -29.86003 65.17862 -8.718807 -29.86003 65.17862 -8.718807 -28.21404 65.17862 -10.45951 -28.25356 65.17862 -5.209273 -29.86004 56.61163 -5.209273 -28.25356 56.61163 -3.468571 -28.21404 56.61163 -3.468572 -29.86004 56.61163 -5.209273 -29.86003 65.17862 -3.468572 -29.86003 65.17862 -3.468571 -28.21404 65.17862 -5.209273 -28.25356 65.17862 -36.49205 -29.86004 79.12968 -36.49205 -28.27332 79.12968 -27.92506 -28.2338 79.12968 -27.92506 -29.86004 79.12968 -36.49205 -29.86003 80.86759 -27.92506 -29.86003 80.86759 -27.92506 -28.2338 80.86758 -36.49205 -28.27332 80.86758 14.41955 -29.86004 79.12968 14.41955 -28.25356 79.12968 22.98655 -28.25356 79.12968 22.98655 -29.86004 79.12968 14.41955 -29.86003 80.86759 22.98655 -29.86003 80.86759 22.98655 -28.25356 80.86758 14.41955 -28.25356 80.86758</float_array>
+          <technique_common>
+            <accessor source="#geom-UCX_SM_counter_sink-positions-array" count="56" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-UCX_SM_counter_sink-normals">
+          <float_array id="geom-UCX_SM_counter_sink-normals-array" count="504">0 0 -0.9999999 0 0 -1 0 0 -0.9999999 0 0 -1 0 0 0.9999999 0 0 1 0 0 0.9999999 0 0 1 0 -1 1.1154e-6 0 -1 1.1154e-6 0 -1 1.1154e-6 0 -1 1.1154e-6 1 0 0 1 0 0 1 0 0 1 0 0 0 1 -1.1154e-6 0 1 -1.1154e-6 0 1 -1.1154e-6 0 1 -1.1154e-6 -0.9999999 0 0 -1 0 0 -0.9999999 0 0 -1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0.9999999 0 0 1 0 0 0.9999999 0 0 1 0 -1 3.37101e-7 0 -1 3.37101e-7 0 -1 3.37101e-7 0 -1 3.37101e-7 1 0 0 1 0 0 0.9999999 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 -0.9999999 0 0 -1 0 0 -0.9999999 0 0 -1 0 0 0.9999999 0 0 1 0 0 0.9999999 0 0 1 0 -1 2.11928e-8 0 -1 2.11928e-8 0 -1 2.11928e-8 0 -1 2.11928e-8 0.9999999 0 0 1 0 0 0.9999999 0 0 1 0 0 0 1 -2.11928e-8 0 1 -2.11928e-8 0 1 -2.11928e-8 0 1 -2.11928e-8 -0.9999999 0 0 -1 0 0 -0.9999999 0 0 -1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0.9999999 0 0 1 0 0 1 0 0 1 0 -1 8.90557e-7 0 -1 8.90557e-7 0 -1 8.90557e-7 0 -1 8.90557e-7 1 0 0 1 0 0 1 0 0 0.9999999 0 0 -0.0226956 0.9997424 0 -0.0226956 0.9997424 0 -0.0226956 0.9997424 0 -0.0226956 0.9997424 0 -0.9999999 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 -0.9999999 0 0 -1 0 0 -0.9999999 0 0 -1 0 0 1 0 0 1 0 0 0.9999999 0 0 1 0 -1 8.90557e-7 0 -1 8.90557e-7 0 -1 8.90557e-7 0 -1 8.90557e-7 1 -5.79392e-7 6.23523e-14 1 -5.79392e-7 0 1 -5.79394e-7 4.53631e-13 0.9999999 -5.79394e-7 5.15984e-13 -0.02269559 0.9997424 0 -0.02269559 0.9997424 0 -0.02269559 0.9997424 0 -0.02269559 0.9997424 0 -0.9999999 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1.95303e-8 4.79435e-6 1 0 4.69147e-6 1 -2.59122e-9 4.70512e-6 1 -2.2179e-8 4.8083e-6 0.9999999 0 -0.9999999 5.48746e-6 0 -1 5.48746e-6 0 -0.9999999 5.48746e-6 0 -1 5.48746e-6 1 0 0 1 0 0 1 0 0 1 0 0 -0.004612592 0.9999894 -1.09749e-6 -0.004612592 0.9999894 -1.09749e-6 -0.004612592 0.9999894 -1.09749e-6 -0.004612592 0.9999894 -1.09749e-6 -1 0 0 -0.9999999 0 0 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 4.74917e-6 0.9999999 0 4.74917e-6 1 0 4.74917e-6 0.9999999 0 4.74917e-6 1 0 -1 5.48746e-6 0 -1 5.48746e-6 0 -1 5.48746e-6 0 -1 5.48746e-6 1 0 0 1 0 0 1 0 0 1 0 0 0 1 -1.0975e-6 0 1 -1.0975e-6 0 1 -1.0975e-6 0 1 -1.0975e-6 -0.9999999 0 0 -1 0 0 -1 0 0 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#geom-UCX_SM_counter_sink-normals-array" count="168" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-UCX_SM_counter_sink-map1">
+          <float_array id="geom-UCX_SM_counter_sink-map1-array" count="504">1 0 0 0 0 0 1 1 0 0 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 1 0 0 1 1 0 0 1 0 0 0 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 1 0 0 1 1 0 0 1 0 0 0 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 1 0 0 1 1 0 0 1 0 0 0 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 1 0 0 1 1 0 0 1 0 0 0 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 1 0 0 1 1 0 0 1 0 0 0 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 1 0 0 1 1 0 0 1 0 0 0 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#geom-UCX_SM_counter_sink-map1-array" count="168" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom-UCX_SM_counter_sink-vertices">
+          <input semantic="POSITION" source="#geom-UCX_SM_counter_sink-positions"/>
+        </vertices>
+        <triangles material="_3_-_Default_1" count="84">
+          <input semantic="VERTEX" source="#geom-UCX_SM_counter_sink-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#geom-UCX_SM_counter_sink-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#geom-UCX_SM_counter_sink-map1" offset="2" set="0"/>
+          <p>0 0 0 2 1 2 3 2 3 3 2 3 1 3 1 0 0 0 4 4 4 5 5 5 7 6 7 7 6 7 6 7 6 4 4 4 0 8 8 1 9 9 5 10 11 5 10 11 4 11 10 0 8 8 1 12 12 3 13 13 7 14 15 7 14 15 5 15 14 1 12 12 3 16 16 2 17 17 6 18 19 6 18 19 7 19 18 3 16 16 2 20 20 0 21 21 4 22 23 4 22 23 6 23 22 2 20 20 8 24 24 9 25 25 10 26 26 10 26 26 11 27 27 8 24 24 12 28 28 13 29 29 14 30 30 14 30 30 15 31 31 12 28 28 8 32 32 11 33 33 13 34 34 13 34 34 12 35 35 8 32 32 11 36 36 10 37 37 14 38 38 14 38 38 13 39 39 11 36 36 10 40 40 9 41 41 15 42 42 15 42 42 14 43 43 10 40 40 9 44 44 8 45 45 12 46 46 12 46 46 15 47 47 9 44 44 16 48 48 17 49 49 18 50 50 18 50 50 19 51 51 16 48 48 20 52 52 21 53 53 22 54 54 22 54 54 23 55 55 20 52 52 16 56 56 19 57 57 21 58 58 21 58 58 20 59 59 16 56 56 19 60 60 18 61 61 22 62 62 22 62 62 21 63 63 19 60 60 18 64 64 17 65 65 23 66 66 23 66 66 22 67 67 18 64 64 17 68 68 16 69 69 20 70 70 20 70 70 23 71 71 17 68 68 24 72 72 25 73 73 26 74 74 26 74 74 27 75 75 24 72 72 28 76 76 29 77 77 30 78 78 30 78 78 31 79 79 28 76 76 24 80 80 27 81 81 29 82 82 29 82 82 28 83 83 24 80 80 27 84 84 26 85 85 30 86 86 30 86 86 29 87 87 27 84 84 26 88 88 25 89 89 31 90 90 31 90 90 30 91 91 26 88 88 25 92 92 24 93 93 28 94 94 28 94 94 31 95 95 25 92 92 32 96 96 33 97 97 34 98 98 34 98 98 35 99 99 32 96 96 36 100 100 37 101 101 38 102 102 38 102 102 39 103 103 36 100 100 32 104 104 35 105 105 37 106 106 37 106 106 36 107 107 32 104 104 35 108 108 34 109 109 38 110 110 38 110 110 37 111 111 35 108 108 34 112 112 33 113 113 39 114 114 39 114 114 38 115 115 34 112 112 33 116 116 32 117 117 36 118 118 36 118 118 39 119 119 33 116 116 40 120 120 41 121 121 42 122 122 42 122 122 43 123 123 40 120 120 44 124 124 45 125 125 46 126 126 46 126 126 47 127 127 44 124 124 40 128 128 43 129 129 45 130 130 45 130 130 44 131 131 40 128 128 43 132 132 42 133 133 46 134 134 46 134 134 45 135 135 43 132 132 42 136 136 41 137 137 47 138 138 47 138 138 46 139 139 42 136 136 41 140 140 40 141 141 44 142 142 44 142 142 47 143 143 41 140 140 48 144 144 49 145 145 50 146 146 50 146 146 51 147 147 48 144 144 52 148 148 53 149 149 54 150 150 54 150 150 55 151 151 52 148 148 48 152 152 51 153 153 53 154 154 53 154 154 52 155 155 48 152 152 51 156 156 50 157 157 54 158 158 54 158 158 53 159 159 51 156 156 50 160 160 49 161 161 55 162 162 55 162 162 54 163 163 50 160 160 49 164 164 48 165 165 52 166 166 52 166 166 55 167 167 49 164 164</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_lights>
+    <light id="EnvironmentAmbientLight" name="EnvironmentAmbientLight">
+      <technique_common>
+        <ambient>
+          <color>0 0 0</color>
+        </ambient>
+      </technique_common>
+    </light>
+  </library_lights>
+  <library_visual_scenes>
+    <visual_scene id="MaxScene">
+      <node name="EnvironmentAmbientLight">
+        <instance_light url="#EnvironmentAmbientLight"/>
+      </node>
+      <node id="node-UCX_SM_counter_sink" name="UCX_SM_counter_sink">
+        <instance_geometry url="#geom-UCX_SM_counter_sink">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_3_-_Default_1" target="#_3_-_Default-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADA">
+            <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+            <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+            <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+            <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#MaxScene"/>
+  </scene>
+</COLLADA>

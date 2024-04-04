@@ -1,0 +1,22 @@
+{
+  "Name": "Headboards_Occ57434fb9f0_lod0",
+  "Source": "B075QGK96V",
+  "Timestamp": 1674496800,
+  "BoundingBox": {
+    "MinPoint": {
+      "x": -0.8038368225097656,
+      "y": -1.1125341653823853,
+      "z": 0.0005277750897221267
+    },
+    "MaxPoint": {
+      "x": 0.8038709163665771,
+      "y": 1.108077883720398,
+      "z": 1.314643144607544
+    }
+  },
+  "Type": "headboards",
+  "Category": "headboards",
+  "Width": 1.6077077388763428,
+  "Length": 2.220612049102783,
+  "Orientation": 4.71238898038469
+}

@@ -1,0 +1,64 @@
+{
+    "ModelDefinitions": [
+        {
+            "ModelName": "door-Main_bedroom-Hallway",
+            "ModelType": "Door",
+            "Actions": [
+                {
+                    "SetOpenPosition": {
+                        "Definitions": [
+                            {
+                                "ComponentPath": "door-Main_bedroom-Hallway/DoorHingedSingleSwingRight_O888a160c5277_lod0/hinge_joint"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "ModelName": "door-Kitchen-Living_room",
+            "ModelType": "Door",
+            "Actions": [
+                {
+                    "SetOpenPosition": {
+                        "Definitions": [
+                            {
+                                "ComponentPath": "door-Kitchen-Living_room/DoorHingedSingleSwingLeft_O8ab66c006110_lod0/hinge_joint"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "ModelName": "door-Bathroom-Living_room",
+            "ModelType": "Door",
+            "Actions": [
+                {
+                    "SetOpenPosition": {
+                        "Definitions": [
+                            {
+                                "ComponentPath": "door-Bathroom-Living_room/DoorHingedSingleSwingLeft_O351f940da952_lod0/hinge_joint"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "ModelName": "door-Hallway-Bedroom",
+            "ModelType": "Door",
+            "Actions": [
+                {
+                    "SetOpenPosition": {
+                        "Definitions": [
+                            {
+                                "ComponentPath": "door-Hallway-Bedroom/DoorHingedSingleSwingRight_O6596356fe884_lod0/hinge_joint"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

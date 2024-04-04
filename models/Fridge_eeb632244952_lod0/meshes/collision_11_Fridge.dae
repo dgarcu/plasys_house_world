@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+
+    <created>2020-05-25T12:00:03</created>
+    <modified>2020-05-25T12:00:03</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="_4_-_Default">
+      <profile_COMMON>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.5882353 0.5882353 0.5882353 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.5882353 0.5882353 0.5882353 1</color>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>9.999999</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <opacity_type sid="opacity_type" type="int">0</opacity_type>
+            <falloff_type sid="falloff_type" type="int">0</falloff_type>
+            <falloff sid="falloff" type="float">0</falloff>
+            <index_of_refraction sid="index_of_refraction" type="float">1.5</index_of_refraction>
+            <wire_size sid="wire_size" type="float">1</wire_size>
+            <wire_units sid="wire_units" type="int">0</wire_units>
+            <apply_reflection_dimming sid="apply_reflection_dimming" type="bool">0</apply_reflection_dimming>
+            <dim_level sid="dim_level" type="float">0</dim_level>
+            <reflection_level sid="reflection_level" type="float">3</reflection_level>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_texture_lock sid="ambient_diffuse_texture_lock" type="bool">1</ambient_diffuse_texture_lock>
+            <ambient_diffuse_lock sid="ambient_diffuse_lock" type="bool">1</ambient_diffuse_lock>
+            <diffuse_specular_lock sid="diffuse_specular_lock" type="bool">0</diffuse_specular_lock>
+            <use_self_illum_color sid="use_self_illum_color" type="bool">0</use_self_illum_color>
+            <self_illumination sid="self_illumination" type="float">0</self_illumination>
+            <specular_level sid="specular_level" type="float">0</specular_level>
+            <soften sid="soften" type="float">0.1</soften>
+          </shader>
+        </technique>
+      </extra>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="_4_-_Default-material" name="_4_-_Default">
+      <instance_effect url="#_4_-_Default"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="geom-UCX_fridge" name="UCX_fridge">
+      <mesh>
+        <source id="geom-UCX_fridge-positions">
+          <float_array id="geom-UCX_fridge-positions-array" count="48">-32.53708 28.69623 -0.9667587 32.53739 28.69623 -0.9667587 -32.53708 28.69619 183.4807 32.53739 28.69619 183.4807 -32.53708 -34.16981 -0.966774 32.53739 -34.16981 -0.966774 -32.53708 -34.16983 183.4807 32.53739 -34.16983 183.4807 22.09142 -34.16983 90.29823 26.79135 -34.16983 90.29823 22.09142 -34.16984 157.0047 26.79135 -34.16984 157.0047 22.09142 -36.31449 90.29823 26.79135 -36.31449 90.29823 22.09142 -36.31451 157.0047 26.79135 -36.31451 157.0047</float_array>
+          <technique_common>
+            <accessor source="#geom-UCX_fridge-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-UCX_fridge-normals">
+          <float_array id="geom-UCX_fridge-normals-array" count="180">0 1 1.75795e-7 0 1 1.75795e-7 0 1 1.75795e-7 0 1 1.75795e-7 0 1 1.75795e-7 0 1 1.75795e-7 0 -1 -1.44772e-7 0 -1 -1.44772e-7 0 -1 -1.44772e-7 0 -1 -1.44772e-7 0 -1 -1.44772e-7 0 -1 -1.44772e-7 0 2.42719e-7 -1 0 2.42719e-7 -1 0 2.42719e-7 -0.9999999 0 2.42719e-7 -1 0 2.42719e-7 -1 0 2.42719e-7 -0.9999999 1 0 0 0.9999999 0 0 0.9999999 0 0 1 0 0 1 0 0 1 0 0 0 0 0.9999999 0 0 1 0 0 1 0 0 0.9999999 0 0 1 0 0 1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 1.71559e-7 0 1 1.71559e-7 0 1 1.71559e-7 0 1 1.71559e-7 0 -1 -2.28745e-7 0 -1 -2.28745e-7 0 -1 -2.28745e-7 0 -1 -2.28745e-7 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 0.9999999 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 -1 0 0 -1 0 0 -1 0 0 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#geom-UCX_fridge-normals-array" count="60" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-UCX_fridge-map1">
+          <float_array id="geom-UCX_fridge-map1-array" count="144">1 0 0 0 0 0 1 1 0 0 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 1 0 0 0 0 0 1 1 0 0 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0</float_array>
+          <technique_common>
+            <accessor source="#geom-UCX_fridge-map1-array" count="48" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom-UCX_fridge-vertices">
+          <input semantic="POSITION" source="#geom-UCX_fridge-positions"/>
+        </vertices>
+        <triangles material="_4_-_Default_1" count="24">
+          <input semantic="VERTEX" source="#geom-UCX_fridge-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#geom-UCX_fridge-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#geom-UCX_fridge-map1" offset="2" set="0"/>
+          <p>0 0 0 2 1 2 3 2 3 3 3 3 1 4 1 0 5 0 4 6 4 5 7 5 7 8 7 7 9 7 6 10 6 4 11 4 0 12 8 1 13 9 5 14 11 5 15 11 4 16 10 0 17 8 1 18 12 3 19 13 7 20 15 7 21 15 5 22 14 1 23 12 3 24 16 2 25 17 6 26 19 6 27 19 7 28 18 3 29 16 2 30 20 0 31 21 4 32 23 4 33 23 6 34 22 2 35 20 8 36 24 10 37 26 11 38 27 11 38 27 9 39 25 8 36 24 12 40 28 13 41 29 15 42 31 15 42 31 14 43 30 12 40 28 8 44 32 9 45 33 13 46 35 13 46 35 12 47 34 8 44 32 9 48 36 11 49 37 15 50 39 15 50 39 13 51 38 9 48 36 11 52 40 10 53 41 14 54 43 14 54 43 15 55 42 11 52 40 10 56 44 8 57 45 12 58 47 12 58 47 14 59 46 10 56 44</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_lights>
+    <light id="EnvironmentAmbientLight" name="EnvironmentAmbientLight">
+      <technique_common>
+        <ambient>
+          <color>0 0 0</color>
+        </ambient>
+      </technique_common>
+    </light>
+  </library_lights>
+  <library_visual_scenes>
+    <visual_scene id="MaxScene">
+      <node name="EnvironmentAmbientLight">
+        <instance_light url="#EnvironmentAmbientLight"/>
+      </node>
+      <node id="node-UCX_fridge" name="UCX_fridge">
+        <instance_geometry url="#geom-UCX_fridge">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_4_-_Default_1" target="#_4_-_Default-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADA">
+            <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+            <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+            <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+            <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#MaxScene"/>
+  </scene>
+</COLLADA>

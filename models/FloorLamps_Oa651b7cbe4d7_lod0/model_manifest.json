@@ -1,0 +1,22 @@
+{
+  "Name": "FloorLamps_Oa651b7cbe4d7_lod0",
+  "Source": "B07HKGKSMM",
+  "Timestamp": 1674496800,
+  "BoundingBox": {
+    "MinPoint": {
+      "x": -0.12106968462467194,
+      "y": -0.5871627330780029,
+      "z": 6.630481948377565e-05
+    },
+    "MaxPoint": {
+      "x": 0.12106968462467194,
+      "y": 0.2651653587818146,
+      "z": 1.3368929624557495
+    }
+  },
+  "Type": "floor-lamps",
+  "Category": "floor-lamps",
+  "Width": 0.24213936924934387,
+  "Length": 0.8523280918598175,
+  "Orientation": 4.71238898038469
+}

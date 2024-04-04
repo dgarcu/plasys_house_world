@@ -1,0 +1,22 @@
+{
+  "Name": "ShowerAndBath_182f5836455e_lod0",
+  "Source": "04_ShowerAndBath",
+  "Timestamp": 1677085200,
+  "BoundingBox": {
+    "MinPoint": {
+      "x": -0.9096301198005676,
+      "y": -0.6312021613121033,
+      "z": 2.1209599410099145e-08
+    },
+    "MaxPoint": {
+      "x": 1.1466349363327026,
+      "y": 0.5384088754653931,
+      "z": 2.198920965194702
+    }
+  },
+  "Type": "bathtubs",
+  "Category": "bathtubs",
+  "Width": 2.0562650561332703,
+  "Length": 1.1696110367774963,
+  "Orientation": 0
+}

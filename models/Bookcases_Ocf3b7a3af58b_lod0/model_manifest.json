@@ -1,0 +1,22 @@
+{
+  "Name": "Bookcases_Ocf3b7a3af58b_lod0",
+  "Source": "B07HSGCNVB",
+  "Timestamp": 1674496800,
+  "BoundingBox": {
+    "MinPoint": {
+      "x": -0.4236782491207123,
+      "y": -0.21561025083065033,
+      "z": -0.00022509587870445102
+    },
+    "MaxPoint": {
+      "x": 0.4236782491207123,
+      "y": 0.21532879769802094,
+      "z": 2.014887809753418
+    }
+  },
+  "Type": "bookcases",
+  "Category": "bookcases",
+  "Width": 0.8473564982414246,
+  "Length": 0.43093904852867126,
+  "Orientation": 4.71238898038469
+}

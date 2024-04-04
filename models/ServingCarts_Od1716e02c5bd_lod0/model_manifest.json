@@ -1,0 +1,22 @@
+{
+  "Name": "ServingCarts_Od1716e02c5bd_lod0",
+  "Source": "B07HSK72CN",
+  "Timestamp": 1674496800,
+  "BoundingBox": {
+    "MinPoint": {
+      "x": -0.29213833808898926,
+      "y": -0.16985227167606354,
+      "z": -0.0030338948126882315
+    },
+    "MaxPoint": {
+      "x": 0.2906196713447571,
+      "y": 0.1698070615530014,
+      "z": 0.8573958277702332
+    }
+  },
+  "Type": "serving-carts",
+  "Category": "serving-carts",
+  "Width": 0.5827580094337463,
+  "Length": 0.33965933322906494,
+  "Orientation": 4.71238898038469
+}

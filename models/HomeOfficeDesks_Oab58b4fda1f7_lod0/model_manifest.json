@@ -1,0 +1,22 @@
+{
+  "Name": "HomeOfficeDesks_Oab58b4fda1f7_lod0",
+  "Source": "B07QD6V1VT",
+  "Timestamp": 1674496800,
+  "BoundingBox": {
+    "MinPoint": {
+      "x": -0.5004042983055115,
+      "y": -0.27433088421821594,
+      "z": -9.41721100389259e-06
+    },
+    "MaxPoint": {
+      "x": 0.5004042983055115,
+      "y": 0.2741876542568207,
+      "z": 0.762239396572113
+    }
+  },
+  "Type": "home-office-desks",
+  "Category": "home-office-desks",
+  "Width": 1.000808596611023,
+  "Length": 0.5485185384750366,
+  "Orientation": 4.71238898038469
+}

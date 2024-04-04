@@ -1,0 +1,22 @@
+{
+  "Name": "LivingRoomChairs_Obc1361750757_lod0",
+  "Source": "B07QHYF1L3",
+  "Timestamp": 1674496800,
+  "BoundingBox": {
+    "MinPoint": {
+      "x": -0.7119442820549011,
+      "y": -0.4076821506023407,
+      "z": -0.00018426285532768816
+    },
+    "MaxPoint": {
+      "x": 0.7119441628456116,
+      "y": 0.5126503109931946,
+      "z": 0.8783344030380249
+    }
+  },
+  "Type": "living-room-chairs",
+  "Category": "living-room-chairs",
+  "Width": 1.4238884449005127,
+  "Length": 0.9203324615955353,
+  "Orientation": 4.71238898038469
+}

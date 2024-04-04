@@ -1,0 +1,20 @@
+<sdf version="1.6">
+	<model name="AudioVideoMediaCabinets_O8c11fbab8c6f_lod0">
+		<link name="main_link">
+			<visual name="visual_RootNode">
+				<geometry>
+					<mesh>
+						<uri>model://AudioVideoMediaCabinets_O8c11fbab8c6f_lod0/meshes/visual_RootNode.dae</uri>
+					</mesh>
+				</geometry>
+			</visual>
+			<collision name="collision_RootNode_lod0_0">
+				<geometry>
+					<mesh>
+						<uri>model://AudioVideoMediaCabinets_O8c11fbab8c6f_lod0/meshes/collision_RootNode_lod0_0.dae</uri>
+					</mesh>
+				</geometry>
+			</collision>
+		</link>
+	</model>
+</sdf>

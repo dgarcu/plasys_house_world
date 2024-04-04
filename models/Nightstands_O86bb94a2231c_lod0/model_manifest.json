@@ -1,0 +1,22 @@
+{
+  "Name": "Nightstands_O86bb94a2231c_lod0",
+  "Source": "B07QK2JLGZ",
+  "Timestamp": 1674496800,
+  "BoundingBox": {
+    "MinPoint": {
+      "x": -0.38117456436157227,
+      "y": -0.2547414004802704,
+      "z": 7.358759467024356e-05
+    },
+    "MaxPoint": {
+      "x": 0.3811503052711487,
+      "y": 0.2217903733253479,
+      "z": 0.7355039119720459
+    }
+  },
+  "Type": "nightstands",
+  "Category": "nightstands",
+  "Width": 0.762324869632721,
+  "Length": 0.4765317738056183,
+  "Orientation": 4.71238898038469
+}

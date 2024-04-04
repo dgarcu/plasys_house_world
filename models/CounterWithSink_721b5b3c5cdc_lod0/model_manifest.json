@@ -1,0 +1,22 @@
+{
+  "Name": "CounterWithSink_721b5b3c5cdc_lod0",
+  "Source": "20_CounterWithSink",
+  "Timestamp": 1677085200,
+  "BoundingBox": {
+    "MinPoint": {
+      "x": -0.5759508609771729,
+      "y": -0.30758538842201233,
+      "z": -8.773799464734111e-08
+    },
+    "MaxPoint": {
+      "x": 0.4621082842350006,
+      "y": 0.31195229291915894,
+      "z": 1.0927599668502808
+    }
+  },
+  "Type": "kitchen-counters",
+  "Category": "kitchen-counters",
+  "Width": 1.0380591452121735,
+  "Length": 0.6195376813411713,
+  "Orientation": 4.71238898038469
+}

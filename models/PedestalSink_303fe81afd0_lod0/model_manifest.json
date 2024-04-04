@@ -1,0 +1,22 @@
+{
+  "Name": "PedestalSink_303fe81afd0_lod0",
+  "Source": "07_PedestalSink",
+  "Timestamp": 1677085200,
+  "BoundingBox": {
+    "MinPoint": {
+      "x": -0.29836419224739075,
+      "y": -0.24970269203186035,
+      "z": -2.2888200135184888e-07
+    },
+    "MaxPoint": {
+      "x": 0.2999691963195801,
+      "y": 0.21446038782596588,
+      "z": 0.9423289895057678
+    }
+  },
+  "Type": "vanity-counters",
+  "Category": "vanity-counters",
+  "Width": 0.5983333885669708,
+  "Length": 0.46416307985782623,
+  "Orientation": 4.71238898038469
+}
