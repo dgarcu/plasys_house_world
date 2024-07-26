@@ -1,37 +1,33 @@
 import os
-import sys
 
 import launch
-import launch_ros.actions
 from ament_index_python.packages import get_package_share_directory
+from launch.actions import ExecuteProcess, SetEnvironmentVariable
 
 
 def generate_launch_description():
-  world_id = os.environ.get('WORLD_ID', "plasys_house")
-  world = os.path.join(get_package_share_directory('plasys_house_world'),
-    'worlds', world_id, world_id + '.world')
+    package_dir = get_package_share_directory('plasys_house_world')
+    world = os.path.join(package_dir, 'worlds', 'plasys_house', 'plasys_house.world')
 
-  gazebo = launch.actions.IncludeLaunchDescription(
-    launch.launch_description_sources.PythonLaunchDescriptionSource(
-      os.path.join(get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py')),
-    launch_arguments={
-      'gui': launch.substitutions.LaunchConfiguration('gui')
-    }.items()
-  )
+    model_path = os.path.join(package_dir, 'models')
 
-  ld = launch.LaunchDescription([
-    launch.actions.DeclareLaunchArgument(
-      'world',
-      default_value=[world, ''],
-      description='SDF world file'),
-    launch.actions.DeclareLaunchArgument(
-      name='gui',
-      default_value='false'
-    ),
-    gazebo
-  ])
-  return ld
+    gazebo_server_cmd_line = [
+        'gz', 'sim', '-r', '-v4', world]
+
+    gazebo = ExecuteProcess(
+        cmd=gazebo_server_cmd_line, output='screen')
+
+    ld = launch.LaunchDescription([
+        SetEnvironmentVariable('GZ_SIM_RESOURCE_PATH', model_path),
+        launch.actions.DeclareLaunchArgument(
+            'world',
+            default_value=[world, ''],
+            description='SDF world file'),
+        gazebo
+        ])
+
+    return ld
 
 
 if __name__ == '__main__':
-  generate_launch_description()
+    generate_launch_description()
