@@ -9,9 +9,9 @@ else()
   message(FATAL_ERROR "Ament was not found. Unable to build." )
 endif()
 
-find_package(gazebo_ros REQUIRED)
+find_package(ros_gz_sim REQUIRED)
 
 install(DIRECTORY launch worlds models DESTINATION share/${PROJECT_NAME})
 
-ament_export_dependencies(gazebo_ros)
+ament_export_dependencies(ros_gz_sim)
 ament_package()
